@@ -1,0 +1,8 @@
+#!/bin/bash
+SERVICE="nginx"
+if systemctl is-active --quiet "$SERVICE"; then
+  echo "$SERVICE działa poprawnie"
+else
+  echo "$SERVICE nie działa – restartuję..."
+  sudo systemctl restart "$SERVICE"
+fi
