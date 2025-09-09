@@ -10,7 +10,7 @@ Projekt w ramach nauki DevOps – automatyzacja, podstawy bash i git.
 - `update_system.sh` – aktualizuje pakiety systemowe (Ubuntu/Debian).
 - `disk_monitor.sh` – sprawdza użycie dysku i ostrzega, gdy przekroczy próg.
 
-## 🚀 Jak uruchomić
+## Jak uruchomić
 
 Nadaj prawa do uruchamiania:
 ```bash
